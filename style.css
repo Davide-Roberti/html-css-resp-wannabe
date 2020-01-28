@@ -91,6 +91,8 @@ img{
     }
 }
 
+/* altro */
+
 @media screen and (max-width: 420px) {
     .grey .row {
         background-color: #f9f9f9;
