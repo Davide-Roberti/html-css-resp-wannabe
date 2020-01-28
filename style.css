@@ -65,3 +65,32 @@ img{
 .clear {
   clear:both;
 }
+
+/* media query lezioni*/
+
+@media screen and (max-width: 420px) {
+    #lezioni .row > .left, #lezioni .row > .right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #lezioni .row > .left {
+        margin-bottom: 20px;
+    }
+}
+
+/* media query steps */
+
+@media screen and (max-width: 420px) {
+    #steps .row > .left,#steps .row > .central, #steps .row > .right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .grey .row {
+        background-color: #f9f9f9;
+    }
+}
